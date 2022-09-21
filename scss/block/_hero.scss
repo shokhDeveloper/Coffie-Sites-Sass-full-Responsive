@@ -1,0 +1,98 @@
+.hero{
+    padding: 8rem 2rem ;
+    width: 100%;
+    height: auto;
+    background: $textColor;
+    border-radius: 15px ;
+}
+.hero_title{
+    width: 50%;
+    height: auto;
+}
+.hero_title h1{
+    font-size: 60px;
+    font-family: "Frack";
+    color: $orange;
+}
+.hero_title p{
+    line-height: 28px;
+    font-size: 20px;
+    padding-bottom: 2rem;
+    color: $white;
+
+}
+.hero_title button{
+    @include btn
+}
+@include media(1117px){
+    .container{
+        max-width: 990px ;
+        
+    }
+}
+@include media(1008px){
+    .container{
+        max-width: 950px ;
+        
+    }
+}
+@include media(967px){
+    .container{
+        max-width: 900px ;
+        
+    }
+}
+@include media(819px){
+    .container{
+        max-width: 780px ;
+    }
+    .hero{
+        padding: 11rem 1rem;
+    }
+    .hero_title{
+        width: 100%;
+        text-align: center;
+    }
+    .hero_title h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .hero_title p{
+        font-size: 17px;
+    }
+}
+@include media(716px){
+    .hero{
+        padding: 9rem 1rem;
+    }
+}
+@include media(537px){
+    .hero{
+        padding: 7rem 1rem;
+    }
+}
+@include media(407px){
+    .hero{
+        padding: 5rem 1rem;
+    }
+    .hero_title h1{
+        font-size: 47px;
+    }
+}
+@include media(377px){
+    .hero{
+        padding: 8rem 1rem;
+    }
+    .hero_title h1{
+        font-size: 47px;
+    }
+}
+
+@include media(377px){
+    .hero{
+        padding: 5rem 1rem;
+    }
+    .hero_title h1{
+        font-size: 40px;
+    }
+}
